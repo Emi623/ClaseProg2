@@ -1,0 +1,13 @@
+"git.init" "INICIALIZA"
+"git.add" 
+"git.commit" "agrega archivos"
+git branch -M main agregamos a la rama
+git remote add origin repositorio remoto
+echo "# ClaseProg2">> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Emi623/ClaseProg2.git
+git push -u origin main
+
